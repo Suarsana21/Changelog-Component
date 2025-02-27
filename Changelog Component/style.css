@@ -1,0 +1,43 @@
+body {
+  font-family: Poppins;
+  text-decoration: none;
+}
+.container {
+  border: 3px solid #000;
+  border-radius: 14px;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+.head {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.left p {
+  line-height: 1.3rem;
+}
+.right p {
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+button {
+  margin: auto;
+  font-weight: 600;
+  width: 40%;
+  padding: 0.8rem;
+  border: 2px solid #000;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
